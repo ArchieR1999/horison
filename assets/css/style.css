@@ -1,14 +1,14 @@
-/* Adjust each element which repeats into one element class?*/
+/*These styles will change all the styles of the page and are UNIVERSAL SELECTORS*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*These styles will affect background color in the body*/
 body {
     background-color: #d9dcd6;
 }
-
+/*All these .styles are part of classes in this one is part of the header class style*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,11 +41,12 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*Part of the anchor styles*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
+/*paragraph styles*/
 
 p {
     font-size: 16px;
@@ -75,7 +76,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*Styles for the benefits section*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -135,6 +136,8 @@ p {
     max-width: 150px;
 }
 
+/*Styles for the three images classes*/
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -188,7 +191,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Footer styles*/
 .footer {
     padding: 30px;
     clear: both;
